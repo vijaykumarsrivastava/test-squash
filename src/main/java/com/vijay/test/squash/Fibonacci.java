@@ -11,6 +11,7 @@ public class Fibonacci {
 		final int[] array = new int[n];
 		for (int i = 0; i < n; i++) {
 			array[i] = getFibonacci(i);
+			System.out.println("Result " + i + " : " + array[i]);
 		}
 		return array;
 	}
