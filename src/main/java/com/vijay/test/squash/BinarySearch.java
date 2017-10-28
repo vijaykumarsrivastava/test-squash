@@ -15,4 +15,8 @@ public class BinarySearch {
 			return search(array, search, middle + 1, end);
 		return search(array, search, start, middle - 1);
 	}
+	
+	private void display() {
+		System.out.println("Display");
+	}
 }
