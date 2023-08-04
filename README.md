@@ -1,6 +1,15 @@
-This is new commit 1
-Branch : WorkingBranchA
-Commit no 1
-commit no 2
-Branch : WorkingBranchA
+git checkout mybranch
+git rebase -i mybranch~4 mybranch
+
+-- replace "pick" with "f" and keep the first "pick' as it is.
+
+--- don't pull the change.
+
+
+git push -u origin +mybranch
+
+1
+2
+3
+4
 
