@@ -1,4 +1,5 @@
 git checkout mybranch
+
 git rebase -i mybranch~4 mybranch
 
 -- replace "pick" with "f" and keep the first "pick' as it is.
